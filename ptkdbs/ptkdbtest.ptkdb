@@ -1,0 +1,56 @@
+# ==========  ptkdb/ptkdbtest.ptkdb
+$files = {
+	  ' _<ptkdbtest .pl ' => [
+				  {
+				   'expr' => undef,
+				   'value' => '1',
+				   'text' => '    my @leaves = split(/::/, $function);
+',
+				   'frame' => 'ptkdbtest.p1',
+				   'type' => 'user',
+				   'line' => 38
+				  },
+				  {
+				   'expr' => undef,
+				   'value' => '0',
+				   'text' => '	print("add($_, -text => $_)\n")
+',
+				   'fname' => 'ptkdbtest.p1',
+				   'type' => 'user',
+				   'line' => 48
+				  }
+				 ]
+	 };
+$expr_list = [
+	      {
+	       'expr'=>'sx',
+	       'depth'=> -1
+	      },
+	      {
+	       'expr'=>'@jsw',
+	       'depth'=> -1
+	      },
+	      {
+	       'expr'=>'@jes',
+	       'depth'=> 0
+	      },
+	      {
+	       'expr'=>'@kes',
+	       'depth'=> 1
+	      },
+	      {
+	       'expr'=>'Xdeep',
+	       'depth'=> -1
+	      },
+	      {
+	       'expr'=>'@pes',
+	       'depth'=> 1
+	      },
+	      {
+	       'expr'=>'@res',
+	       'depth'=> 0
+	      }
+	     ] ;
+$eval_saved_text = undef;
+$main_win_geometry = '940x600+533+90';
+
